@@ -29,7 +29,7 @@ async def info(ctx, user: discord.Member):
 
 @bot.event
 async def on_message(message):
-    mainCh = bot.get_channel('463411104773832715')
+    mainCh = bot.get_channel('channel id here')
     if message.channel == mainCh:
         imgURL = message.attachments[0]['url']
         imgNAME = message.attachments[0]['filename']
