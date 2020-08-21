@@ -1,4 +1,4 @@
-# PicSaver by Affektive
+# PicSaver by wireless (ROMZiLLA) 
 import os, sys, stat
 import requests
 import discord
